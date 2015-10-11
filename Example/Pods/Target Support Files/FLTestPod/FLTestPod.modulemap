@@ -1,0 +1,6 @@
+framework module FLTestPod {
+  umbrella header "FLTestPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

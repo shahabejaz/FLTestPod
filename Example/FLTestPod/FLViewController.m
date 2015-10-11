@@ -7,6 +7,7 @@
 //
 
 #import "FLViewController.h"
+#import <FLTestPod/FileUtil.h>
 
 @interface FLViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"Docne %@", [FileUtil documentsDirectory]);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,0 +1,14 @@
+PODS:
+  - FLTestPod (0.1.0)
+
+DEPENDENCIES:
+  - FLTestPod (from `../`)
+
+EXTERNAL SOURCES:
+  FLTestPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FLTestPod: b0c1bbfb95bb4941c5192fbb0add8f3c3aac4c82
+
+COCOAPODS: 0.39.0

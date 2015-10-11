@@ -1,0 +1,25 @@
+{
+  "name": "FLTestPod",
+  "version": "0.1.0",
+  "summary": "this pod is for testing",
+  "description": "This the testing pod it should be like this",
+  "homepage": "https://github.com/shahabejaz/FLTestPod",
+  "license": "MIT",
+  "authors": {
+    "Shahab Ejaz": "sejaz@folio3.com"
+  },
+  "source": {
+    "git": "https://github.com/shahabejaz/FLTestPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "FLTestPod": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
